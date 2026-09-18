@@ -101,10 +101,23 @@
     border-bottom-right-radius: 3px;
 }
 
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
 span{
 font-size: 0.7rem;
 }
 nav2{
 font-size: 0.85rem;
 font-weight: 700;
+}
+
+.nav-cart i{
+font-size: 35px;
+height: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
 }
