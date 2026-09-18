@@ -1,18 +1,20 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: Arial;
     box-sizing: border-box;
     color: white;
-
 }
 
 .navbar {
     height: 60px;
     background-color: #0f1111;
-    color: white;
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+/* BOX 1 - LOGO */
 .nav-logo {
     height: 50px;
     width: 100px;
@@ -36,23 +38,72 @@
     border: 1px solid white;
 }
 
-/**box 2**/
-.address1{
-color: #cccccc;
-font-size: 0.85rem;
-margin-left: 15px;
+
+/* BOX 2 - ADDRESS */
+.nav-address {
+    margin-left: 100px;
 }
-.address2{
-font-size: 1rem;
-margin-left: 3px;
+
+.address1 {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
 }
-.add-icon{
-    display:flex;
+
+.address2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
     align-items: center;
 }
 
-/* BOX 3 */
-.nav-search{
-  display: flex;
-    
+
+/* BOX 3 - SEARCH */
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    color: black;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    color: black;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+span{
+font-size: 0.7rem;
+}
+nav2{
+font-size: 0.85rem;
+font-weight: 700;
 }
