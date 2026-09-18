@@ -3,11 +3,14 @@
     font-family: Arial;
     box-sizing: border-box;
     color: white;
+
 }
 
 .navbar {
     height: 60px;
     background-color: #0f1111;
+    color: white;
+    display: flex;
 }
 
 .nav-logo {
@@ -31,4 +34,19 @@
 
 .border:hover {
     border: 1px solid white;
+}
+
+/**box 2**/
+.address1{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.address2{
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
 }
